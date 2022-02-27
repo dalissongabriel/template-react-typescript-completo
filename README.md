@@ -2,37 +2,22 @@
 <p align="center">Template para iniciar rapidamente novos projetos Front-End.</p>
 
 <p
-  align="center"s
+  align="center"
 >
-  <img
-    alt="Principal linguagem do repositório"
-    src="https://img.shields.io/github/languages/top/dalissongabriel/template-react-typescript-completo"
-  />
-
   <a href="https://github.com/dalissongabriel/">
     <img
       alt="Desenvolvido por"
       src="https://img.shields.io/badge/Desenvolvido%20por-Alisson%20Gabriel-green"
     />
   </a>
-
-<img
+  <img
     alt="Tamanho do repositório"
     src="https://img.shields.io/github/repo-size/dalissongabriel/template-react-typescript-completo"
   />
-
   <a href="https://github.com/dalissongabriel/template-react-typescript-completo/commits/main">
     <img
       alt="Último commit no repositório"
       src="https://img.shields.io/github/last-commit/dalissongabriel/template-react-typescript-completo"
-    />
-  </a>
-  <a
-    href="https://github.com/dalissongabriel/template-react-typescript-completo/issues"
-  >
-    <img
-      alt="Issues do repositórios"
-      src="https://img.shields.io/github/issues/dalissongabriel/template-react-typescript-completo"
     />
   </a>
 </p>

@@ -1,21 +1,60 @@
-# Template: React + Typescript Completo.
+<h3 align="center">React e Typescript</h3>
+<p align="center">Template para iniciar rapidamente novos projetos Front-End.</p>
 
-Esse é um template para aplicações Front-End com React e Typescript com algumas configurações comuns já feitas. Estão inclusas estas:
+<p
+  align="center"s
+>
+  <img
+    alt="Principal linguagem do repositório"
+    src="https://img.shields.io/github/languages/top/dalissongabriel/template-react-typescript-completo"
+  />
 
-- Eslint e Prettier configurados;
-- Story Book e stories de exemplo;
-- Jest com React Testing Library configurados;
-- ViteJs como empacator, com path alias cofigurado;
-- Git Hooks com Husky para validar mensagem de commit, rodar eslint durante os commits e test coverage durante os PRs;
-- Rotas configuradas com React Router Dom;
-- Pastas/Camadas comuns em projetos FrontEnd;
-- NPM Interactive Scripts para rodar mais facilmente os scripts do package.json;
+  <a href="https://github.com/dalissongabriel/">
+    <img
+      alt="Desenvolvido por"
+      src="https://img.shields.io/badge/Desenvolvido%20por-Alisson%20Gabriel-green"
+    />
+  </a>
 
-Optei por não configurar nenhum biblioteca de UI ou alguma de CSS in JS. Isso muda muito de projeto para projeto, então fugiria da proposta desse template.
+<img
+    alt="Tamanho do repositório"
+    src="https://img.shields.io/github/repo-size/dalissongabriel/template-react-typescript-completo"
+  />
 
-Sinta-se a vontade para utiliza-lo :)
+  <a href="https://github.com/dalissongabriel/template-react-typescript-completo/commits/main">
+    <img
+      alt="Último commit no repositório"
+      src="https://img.shields.io/github/last-commit/dalissongabriel/template-react-typescript-completo"
+    />
+  </a>
+  <a
+    href="https://github.com/dalissongabriel/template-react-typescript-completo/issues"
+  >
+    <img
+      alt="Issues do repositórios"
+      src="https://img.shields.io/github/issues/dalissongabriel/template-react-typescript-completo"
+    />
+  </a>
+</p>
 
-Além disto, também estou disponibilizando as configurações do VS Code neste [Gist](https://gist.github.com/dalissongabriel/1e4fabdcf709e88f40e4e33338e45481), elas formatam o código de acordo com as regras do prettier.
+## 👨🏻‍💻 Sobre este projeto
+
+Template para aplicações Front-End com React e Typescript com várias
+configurações prontas.
+
+## 🚀 Tecnologias utilizadas
+
+- React com Typescript;
+- React Router Dom;
+- ViteJs;
+- Eslint e Prettier;
+- Story Book;
+- React Testing Library;
+- Git Hooks com Husky;
+- Git Commit Message Linter;
+- NPM Interactive Scripts;
+
+## ⚡ Configurações para otimizar o VSCode
 
 ```json
  // FORMAT ON SAVE
@@ -39,4 +78,41 @@ Além disto, também estou disponibilizando as configurações do VS Code neste 
     "editor.suggestSelection": "recentlyUsed",
     "editor.suggest.showKeywords": false
   },
+```
+
+## 👍 Snippets
+
+~/.config/Code/User/snippets/typescript.json
+
+```json
+{
+  "Exportar componentes": {
+    "prefix": "exp",
+    "body": ["export { default as $1} from '@/$2/$1/$1';", " $0"],
+    "description": "Exportar componentes."
+  }
+}
+```
+
+~/.config/Code/User/snippets/typescriptreact.json
+
+```json
+{
+  "Criar componente funcional": {
+    "prefix": "comp",
+    "body": [
+      "const $1 = () => {",
+      "return (<$0></$0>);",
+      "}",
+      "",
+      "export default $1;"
+    ],
+    "description": "Criar componente funcional."
+  },
+  "Importação": {
+    "prefix": "imp",
+    "body": ["import { $2 } from '@/$1'"],
+    "description": "Importação."
+  }
+}
 ```
